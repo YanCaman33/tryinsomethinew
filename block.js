@@ -10,7 +10,7 @@ window.onload = function() {
   for (let i = 1; i <=9; i++) {
     document.getElementById(i.toString()).addEventListener("click" ,function() {
       if (this.id === answer) {
-        location.replace("keyt.html");
+        location.replace("index.html");
       } else {
         result.textContent ="Wrong answer, new page opening in 3 seconds..."
         setTimeout(() => {
@@ -20,5 +20,6 @@ window.onload = function() {
     })
   }
 }
+
 
 
