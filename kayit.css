@@ -1,0 +1,53 @@
+body {
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.buton {
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: large;
+  font-weight: normal;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(243, 0, 0);
+  color: aliceblue;
+  transition: all 0.3s;
+
+}
+
+.buton:hover {
+  padding: 16px;
+  opacity: 0.7;
+}
+
+.buton:active {
+  background-color: rgb(0, 255, 0);
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.8);
+}
+
+.input {
+  font-size: large;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 sütun */
+  gap: 20px; /* aralığı ayarlar */
+  width: 600px; /* kutunun genişliği */
+  margin: auto; /* ortalamak için */
+}
+
+.grid img {
+
+  width: 90px;
+  height: auto;
+  object-fit: cover; /* düzgün görünmesi için */
+  border-radius: 8px; /* köşeleri yuvarlat (opsiyonel) */
+  transition: all 0.3s;
+}
+
+.grid img:hover {
+  cursor: pointer;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.7);
+}
